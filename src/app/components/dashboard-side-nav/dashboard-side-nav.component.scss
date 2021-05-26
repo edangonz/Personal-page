@@ -1,0 +1,44 @@
+.side-nav-container{
+    display: flex;
+    flex-direction: column;   
+    height: 100%;
+}
+
+.photo-container{
+    background-color: var(--ternay-color);
+    height: 240px;
+}
+
+.edangonz-container{
+    flex-grow: 1;
+
+    overflow-y: scroll;
+}
+
+.border-bottom{
+    border-bottom: 1px var(--font-title) solid;
+}
+
+.rrss-container{
+    height: 50px;
+    background-color: var(--ternay-color);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    i{
+        font-size: 1.5rem;
+        color : var(--font-title);
+        transition: transform 100ms ease-in-out;
+
+        &:hover{
+            color: white;
+            transform: scale(1.1);
+        }
+    }
+}
+
+br{
+    border: 1px black solid;
+}

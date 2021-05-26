@@ -1,0 +1,43 @@
+{
+    "profile" : {
+        "name" : "Eduardo",
+        "last_name" : "Gonzalez",
+        "date_of_birth" : "1999-9-10",
+        "residence" : "Ecuador",
+        "city" : "La Libertad",
+        "profile" : [
+            "Frontend",
+            "Backend"
+        ]
+    },
+    "coding" : [
+        {
+            "language" : "html",
+            "percentage" : 100
+        },
+        {
+            "language" : "css",
+            "percentage" : 100
+        },
+        {
+            "language" : "js",
+            "percentage" : 100
+        }
+    ],
+    "knowledge" : [
+        "Bootstrap",
+        "Materialize",
+        "Git",
+        "Sass",
+        "Sccs",
+        "Angular",
+        "React"
+    ],
+    "rrss" : {
+        "linkedin" : "https://www.linkedin.com/in/eduardo-gonzalez-9953a81b8/",
+        "github" : "https://github.com/edangonz",
+        "twitter" : "https://twitter.com/edangonz",
+        "youtube" : "",
+        "facebook": ""
+    }
+}

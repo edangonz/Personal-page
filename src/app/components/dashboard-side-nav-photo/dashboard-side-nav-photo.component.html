@@ -1,0 +1,13 @@
+<div class="photo-container">
+    <img src="./assets/profile.jpg" alt="profile">
+</div>
+
+<div class="name-container">
+    <h2>{{ profile.name }} {{ profile.last_name }}</h2>
+</div>
+
+<div class="skill-container">
+    <ul>
+        <li *ngFor="let tech of profile.profile">{{tech}}</li>
+    </ul>
+</div>

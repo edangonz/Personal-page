@@ -1,0 +1,15 @@
+.name-container, .photo-container, .skill-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.photo-container{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+        height: 100%;
+    }
+}

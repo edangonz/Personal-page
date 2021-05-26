@@ -1,0 +1,49 @@
+<div class="side-nav-container" *ngIf="data">
+    <div class="photo-container padding-lr-15 padding-tb-15">
+        <app-dashboard-side-nav-photo
+            [profile]="data.profile"
+        ></app-dashboard-side-nav-photo>
+    </div>
+    <div class="edangonz-container padding-lr-15">
+        <div class="border-bottom">
+            <app-dashboard-side-nav-coding
+                [coding]="data.coding">
+            </app-dashboard-side-nav-coding>
+        </div>
+        <div class="border-bottom">
+            <app-dashboard-side-nav-knowledge
+                [knowledge]="data.knowledge"
+            ></app-dashboard-side-nav-knowledge>
+        </div>
+        <div class="padding-tb-15">
+            <a href="./assets/cv.pdf" [download]="data.profile.name + ' ' + data.profile.last_name">Download</a>
+        </div>
+    </div>
+    <div class="rrss-container padding-lr-15 padding-tb-15" *ngIf="data.rrss as sn">
+        <div *ngIf="sn.linkedin">
+            <a [href]="sn.linkedin" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <div *ngIf="sn.github">
+            <a [href]="sn.github" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <div *ngIf="sn.twitter">
+            <a [href]="sn.twitter" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div *ngIf="sn.youtube">
+            <a [href]="sn.youtube" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div *ngIf="sn.facebook">
+            <a [href]="sn.facebook" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+    </div>
+</div>

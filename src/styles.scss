@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('./assets/css/scroll.scss');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color : #ffffff;
+    --secondary-color : #e6e6e6;
+    --ternay-color : #bfbfbf;
+    --font-title : #404040;
+    --font-text : #808080;
+}
+
+.padding-lr-15{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.padding-tb-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
